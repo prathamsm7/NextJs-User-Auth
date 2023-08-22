@@ -40,7 +40,6 @@ export default function SignupPage() {
 
   return (
     <div className="flex flex-col gap-4 w-1/3 mt-6 m-auto border rounded-md px-5 pt-10 pb-5">
-      <Toaster />
       <h1 className="text-center font-bold">
         {loading ? "Processing" : "Signup"}
       </h1>
